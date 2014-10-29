@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ScannerActivity!</string>
+   
+    <string name="app_name">Behind The Brands</string>
+
+    <string name="text_logo_line1">BEHIND THE</string>
+    <string name="text_logo_line2">BRANDS</string>
+    
+     <string name="button_open_settings">Settings</string>
+     <string name="button_open_myprofile">My Profile</string>
+     <string name="button_open_moreinfo">More Info</string>
+</resources>

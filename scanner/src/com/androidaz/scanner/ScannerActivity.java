@@ -51,46 +51,13 @@ public class ScannerActivity extends CaptureActivity
     	
     	Integer code = Db.search(rawResult.getText());
     	
-    	Intent intent = new Intent(context, WebViewActivityCompanyNotFound.class);
+    	Intent intent = new Intent(context, WebViewActivityCompany.class);
+    	intent.putExtra("companyIndex", code);
+
     	switch (code) {
-	    	case 1: {
-	    		intent = new Intent(context, WebViewActivityCompany1.class);
-	    		break;
-	    	}
-	    	case 2: {
-	    		intent = new Intent(context, WebViewActivityCompany2.class);
-	    		break;
-	    	}
-	    	case 3: {
-	    		intent = new Intent(context, WebViewActivityCompany3.class);
-	    		break;
-	    	}
-	    	case 4: {
-	    		intent = new Intent(context, WebViewActivityCompany4.class);
-	    		break;
-	    	}
-	    	case 5: {
-	    		intent = new Intent(context, WebViewActivityCompany5.class);
-	    		break;
-	    	}
-	    	case 6: {
-	    		intent = new Intent(context, WebViewActivityCompany6.class);
-	    		break;
-	    	}
-	    	case 7: {
-	    		intent = new Intent(context, WebViewActivityCompany7.class);
-	    		break;
-	    	}
-	    	case 8: {
-	    		intent = new Intent(context, WebViewActivityCompany8.class);
-	    		break;
-	    	}
-	    	case 9: {
-	    		intent = new Intent(context, WebViewActivityCompany9.class);
-	    		break;
-	    	}
-	    	case 10: {
-	    		intent = new Intent(context, WebViewActivityCompany10.class);
+	    	case 123: { //some (hopefully) unreachable case because I didn't want to delete Mladen's switch.
+	    		intent = new Intent(context, WebViewActivityCompany.class);
+	    		intent.putExtra("companyIndex",123);
 	    		break;
 	    	}
 	    	default: {

@@ -27,62 +27,13 @@
             android:screenOrientation="portrait"
             />
         
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany1"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany2"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany3"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany4"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany5"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany6"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany7"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
         
         <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany8"
+            android:name="com.androidaz.scanner.WebViewActivityCompany"
             android:theme="@android:style/Theme.NoTitleBar"
             android:screenOrientation="portrait"
             />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany9"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompany10"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name="com.androidaz.scanner.WebViewActivityCompanyNotFound"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"
-            />
+       
         
         <activity
             android:name="com.androidaz.scanner.WebViewActivityProfile"

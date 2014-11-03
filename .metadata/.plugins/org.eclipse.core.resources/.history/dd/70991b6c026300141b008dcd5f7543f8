@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidaz.scanner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="16" />
+
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany1"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany2"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany3"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany4"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany5"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany6"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany7"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany8"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany9"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompany10"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityCompanyNotFound"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityProfile"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivitySettings"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.androidaz.scanner.WebViewActivityInfo"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            />
+        
+        <activity android:name=".ScannerActivity"
+			  android:label="@string/app_name"
+              android:screenOrientation="landscape"
+              android:clearTaskOnLaunch="true"
+              android:stateNotNeeded="true"
+              android:configChanges="orientation|keyboardHidden"
+              android:theme="@style/CustomTheme"
+              android:windowSoftInputMode="stateAlwaysHidden">
+              
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

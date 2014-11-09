@@ -54,48 +54,48 @@ public class ScannerActivity extends CaptureActivity
     	Intent intent = new Intent(context, WebViewActivityCompany.class);
     	intent.putExtra("companyIndex", code);
 
-//    	switch (code) {
-//	    	case 123: { 
-//	    		intent = new Intent(context, WebViewActivityCompany.class);
-//	    		intent.putExtra("companyIndex",123);
-//	    		break;
-//	    	}
-//	    	default: {
-//	    		
-//	    		Intent resultIntent = new Intent(this, WebViewActivity.class);
-//	    		// Because clicking the notification opens a new ("special") activity, there's
-//	    		// no need to create an artificial back stack.
-//	    		PendingIntent resultPendingIntent =
-//	    		    PendingIntent.getActivity(
-//	    		    this,
-//	    		    0,
-//	    		    resultIntent,
-//	    		    PendingIntent.FLAG_UPDATE_CURRENT
-//	    		);
-//	    		
-//	    		Notification.Builder mBuilder =
-//	    			    new Notification.Builder(this)
-//	    			    .setSmallIcon(R.drawable.ic_launcher)
-//	    			    .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher))
-//	    			    .setContentTitle("Improvement!")
-//	    			    .setStyle(new Notification.BigTextStyle().bigText("Hello! We have noticed that you improved your overall Land score.")) 
-//	    			    .setContentText("Hello! We have noticed that you improved your overall Land score.")
-//	    			    .addAction(R.drawable.ic_launcher, "Read more", resultPendingIntent)
-//	    				.addAction(R.drawable.ic_launcher, "Take action", resultPendingIntent);
-//	    		
-//	    		mBuilder.setContentIntent(resultPendingIntent);
-//	    		
-//	    		// Sets an ID for the notification
-//	    		int mNotificationId = 001;
-//	    		// Gets an instance of the NotificationManager service
-//	    		NotificationManager mNotifyMgr = 
-//	    		        (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-//	    		// Builds the notification and issues it.
-//	    		mNotifyMgr.notify(mNotificationId, mBuilder.build());
-//	    		
-//	    		break;
-//	    	}
-//    	}
+    	switch (code) {
+	    	case 123: { //some (hopefully) unreachable case because I didn't want to delete Mladen's switch.
+	    		intent = new Intent(context, WebViewActivityCompany.class);
+	    		intent.putExtra("companyIndex",123);
+	    		break;
+	    	}
+	    	default: {
+	    		
+	    		Intent resultIntent = new Intent(this, WebViewActivity.class);
+	    		// Because clicking the notification opens a new ("special") activity, there's
+	    		// no need to create an artificial back stack.
+	    		PendingIntent resultPendingIntent =
+	    		    PendingIntent.getActivity(
+	    		    this,
+	    		    0,
+	    		    resultIntent,
+	    		    PendingIntent.FLAG_UPDATE_CURRENT
+	    		);
+	    		
+	    		Notification.Builder mBuilder =
+	    			    new Notification.Builder(this)
+	    			    .setSmallIcon(R.drawable.ic_launcher)
+	    			    .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher))
+	    			    .setContentTitle("Improvement!")
+	    			    .setStyle(new Notification.BigTextStyle().bigText("Hello! We have noticed that you improved your overall Land score.")) 
+	    			    .setContentText("Hello! We have noticed that you improved your overall Land score.")
+	    			    .addAction(R.drawable.ic_launcher, "Read more", resultPendingIntent)
+	    				.addAction(R.drawable.ic_launcher, "Take action", resultPendingIntent);
+	    		
+	    		mBuilder.setContentIntent(resultPendingIntent);
+	    		
+	    		// Sets an ID for the notification
+	    		int mNotificationId = 001;
+	    		// Gets an instance of the NotificationManager service
+	    		NotificationManager mNotifyMgr = 
+	    		        (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+	    		// Builds the notification and issues it.
+	    		mNotifyMgr.notify(mNotificationId, mBuilder.build());
+	    		
+	    		break;
+	    	}
+    	}
     	
 	    startActivity(intent);
     }

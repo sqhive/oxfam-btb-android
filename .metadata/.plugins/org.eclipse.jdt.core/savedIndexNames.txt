@@ -1,6 +1,0 @@
-INDEX VERSION 1.126+/Users/sarinusier/Development/Sqhive/oxfam-btb/default/.metadata/.plugins/org.eclipse.jdt.core
-2715273552.index
-3019349175.index
-3762975253.index
-1252312768.index
-2381819844.index
